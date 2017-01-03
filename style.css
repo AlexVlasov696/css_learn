@@ -1,0 +1,26 @@
+body {
+    font: 1rem Arial, Tahoma;
+    color: #353535;
+}
+.content{
+    color: red;
+}
+#title {color:green;}
+
+[title="Spisok"]{color: red;}
+
+a{text-decoration: none;
+transition: all .7s;}
+
+a:link{color: red;}
+
+a:visited{color: blue;}
+
+a:hover{text-decoration: underline;
+color: aqua;}
+
+a:active{
+    color: green;
+}
+
+h1:target{color: green;}
